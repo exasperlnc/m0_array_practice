@@ -20,3 +20,6 @@ puts numbers[1]
 
 #This returns false because the third index is false. 
 puts booleans[2]
+
+#The insert method adds 1 or more elements, in order, to an array starting at the specified location. In this case, the fourth position. 
+friends.insert(3, 'Javi' , 'Jacob')
