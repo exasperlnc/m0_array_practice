@@ -14,3 +14,9 @@ floats.pop
 
 #The push method adds an element to the end of an array. In this case, it adds True to the end. 
 booleans.push(true)
+
+#This returns 7 because the original array has lost the 5 at the end, making 7 the second number to appear.
+puts numbers[1]
+
+#This returns false because the third index is false. 
+puts booleans[2]
